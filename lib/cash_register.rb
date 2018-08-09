@@ -1,3 +1,15 @@
 class CashRegister
+  attr_accessor :discount
 
-end 
+  @@all =[]
+
+
+  def initialize(discount="")
+
+  end 
+    
+  def self.total
+    @@all 
+  end
+  
+end
