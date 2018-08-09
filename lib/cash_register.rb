@@ -5,11 +5,11 @@ class CashRegister
 
 
   def initialize(discount="")
-
-  end 
-    
-  def self.total
-    @@all 
+    @discount = discount
   end
-  
+
+  def self.total
+    @@all
+  end
+
 end
